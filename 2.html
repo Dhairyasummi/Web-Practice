@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <h2>CREATE AN ACCOUNT</h2>
+    <br><br>
+    <form action="liveserver.php">
+        <div>
+            <label for="name">Name:</label>
+         <input type="text" name="MyName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="role">Role:</label>
+         <input type="text" name="MyRole" id="role">
+        </div>
+        <br>
+        <div>
+            <label for="number">Name:</label>
+         <input type="number" name="MyNumber" id="number">
+        </div>
+        <br>
+        <div>
+            <label for="mail">E-Mail:</label>
+         <input type="email" name="MyEmail" id="mail">
+        </div>
+        <br>
+        <div>
+         Gender: <input type="radio" name="MyGender"> Male<input type="radio" name="MyGender">Female
+        </div>
+        <br>
+        <div>
+            <label for="dob">D.O.B:</label>
+         <input type="date" name="MyDate" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="car">Car:</label>
+            <select name="Mycar" id="car">
+                <option value="a">FORTUNER</option>
+                <option value="b">HARRIER</option>
+                <option value="c">BMW X8</option>
+                <option value="d">VERNA</option>
+                <option value="e">CIVIC</option>
+                <option value="f">VIRTUS GT</option>
+                <option value="g">WAGONR</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="way">write about yourself:</label>
+          <br><textarea name="Mytext" cols="90" rows="10" id="way"></textarea>
+        </div>
+        <br>
+        <div>
+        <input type="checkbox" name="MyEligibilty">terms and conditions
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <br>
+        <div>
+         <input type="reset" value="reset">
+        </div>
+        <br>
+
+
+    </form>
+    
+</body>
+</html>
